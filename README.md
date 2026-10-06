@@ -41,23 +41,17 @@ Activate the virtual environment.
 venv\Scripts\activate
 ```
 
-**macOS/Linux:**
-
-```bash
-source venv/bin/activate
-```
-
 ### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the API
+### 4. Running the API
 
-Start the application using Uvicorn according to the project's application entry point.
+The API is served using Uvicorn.
 
-For example:
+Start the application using the project's configured application entry point:
 
 ```bash
 uvicorn <module>:<application> --reload
