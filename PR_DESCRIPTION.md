@@ -2,7 +2,7 @@
 
 ### PR Title
 
-`feat/FEAPP-420: Add WhatsApp notifications`
+`feat/FEAPP-420: Allow customer notification via WhatsApp`
 
 ### PR Description
 
