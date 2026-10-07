@@ -2,3 +2,9 @@
 *.env
 /test-runs/logs/
 *.csv
+
+Explanation
+/build/ – Ignores the build directory at the root of the repository and its contents.
+*.env – Ignores files ending with .env.
+/test-runs/logs/ – Ignores the logs directory inside test-runs at the repository root.
+*.csv – Ignores CSV files throughout the repository.
